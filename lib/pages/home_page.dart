@@ -38,18 +38,18 @@ class HomePage extends StatelessWidget {
   ];
 
   List productTitle = [
-    'product title',
-    'product title',
-    'product title',
-    'product title',
-    'product title',
-    'product title',
-    'product title',
-    'product title',
-    'product title',
-    'product title',
-    'product title',
-    'product title',
+    'EarPods',
+    'TempoElite',
+    'ChronoCraft',
+    'HorizonSync',
+    'EonElegance',
+    'CelestialGaze',
+    'NovaStyle',
+    'QuantumQuest',
+    'ZenithAura',
+    'SonicWave',
+    'EchoHarmony',
+    'PulseBeat',
   ];
 
   @override
