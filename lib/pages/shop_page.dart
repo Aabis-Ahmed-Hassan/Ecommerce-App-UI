@@ -14,9 +14,14 @@ class ShopPage extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Color(0xfff4f4f4),
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           backgroundColor: Colors.white,
           title: const Text(
             'Categories',
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.w500,
+            ),
           ),
           centerTitle: true,
           leading: InkWell(
@@ -32,11 +37,11 @@ class ShopPage extends StatelessWidget {
               Icons.arrow_back,
             ),
           ),
-          actions: [
-            const Icon(
+          actions: const [
+            Icon(
               Icons.search,
             ),
-            const SizedBox(
+            SizedBox(
               width: 10,
             ),
           ],

@@ -124,7 +124,7 @@ class ProductPage extends StatelessWidget {
                               color: Colors.black,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 4,
                           ),
                           Text(
@@ -135,7 +135,7 @@ class ProductPage extends StatelessWidget {
                               color: Color(0xff9B9B9B),
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 4,
                           ),
                           Row(
@@ -166,7 +166,7 @@ class ProductPage extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 12,
                   ),
                   const Text(
@@ -176,7 +176,7 @@ class ProductPage extends StatelessWidget {
                       fontSize: 16,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 12,
                   ),
                   Container(
@@ -191,7 +191,7 @@ class ProductPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 12,
                   ),
                   const Row(
@@ -213,7 +213,7 @@ class ProductPage extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 12,
                   ),
                   SingleChildScrollView(
@@ -330,7 +330,7 @@ class ProductPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 55,
                   ),
                 ],

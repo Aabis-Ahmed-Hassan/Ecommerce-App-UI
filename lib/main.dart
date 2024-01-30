@@ -1,4 +1,4 @@
-import 'package:ecommere_store_ui/pages/cart.dart';
+import 'package:ecommere_store_ui/pages/bag.dart';
 import 'package:ecommere_store_ui/pages/favourite_page.dart';
 import 'package:ecommere_store_ui/pages/home_page.dart';
 import 'package:ecommere_store_ui/pages/profile_page.dart';
@@ -24,21 +24,13 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-
-
         body: [
           HomePage(),
           ShopPage(),
-          Cart(),
+          Bag(),
           FavourtePage(),
           Profile(),
-
-
         ][currentItem],
-
-
-
-
         bottomNavigationBar: NavigationBar(
           selectedIndex: currentItem,
           onDestinationSelected: (value) {
@@ -59,3 +51,41 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
+// import 'package:flutter/material.dart';
+//
+// import 'pages/home_page.dart';
+//
+// void main() => runApp(const MyApp());
+//
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) => MaterialApp(
+//         title: 'Pdf Package Flutter',
+//         debugShowCheckedModeBanner: false,
+//         theme: ThemeData(
+//           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+//           appBarTheme: const AppBarTheme(
+//             titleTextStyle: TextStyle(
+//               fontSize: 24,
+//               fontWeight: FontWeight.bold,
+//             ),
+//           ),
+//           elevatedButtonTheme: ElevatedButtonThemeData(
+//             style: ElevatedButton.styleFrom(
+//               minimumSize: const Size(300, 60),
+//               textStyle: const TextStyle(
+//                 fontSize: 24,
+//                 fontWeight: FontWeight.bold,
+//               ),
+//               shape: RoundedRectangleBorder(
+//                 borderRadius: BorderRadius.circular(50),
+//               ),
+//             ),
+//           ),
+//         ),
+//         home: HomePage(),
+//       );
+// }
