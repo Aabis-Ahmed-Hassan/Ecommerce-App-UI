@@ -66,8 +66,9 @@ class HomePage extends StatelessWidget {
               children: [
                 Container(
                   width: double.infinity,
+                  color: Colors.grey,
                   child: const Image(
-                    image: AssetImage('assets/1.jpg'),
+                    image: AssetImage('assets/product_ (11).png'),
                   ),
                 ),
                 const Positioned(
@@ -222,7 +223,7 @@ class HomePage extends StatelessWidget {
                       );
                     })),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 25,
                   ),
                   const Row(
@@ -248,13 +249,13 @@ class HomePage extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Text(
+                  const Text(
                     'You have never seen it before!',
                     style: TextStyle(
                       color: Color(0xff9B9B9B),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
 
@@ -303,8 +304,8 @@ class HomePage extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(10),
                                           ),
-                                          child: Text('New',
-                                              style: const TextStyle(
+                                          child: const Text('New',
+                                              style: TextStyle(
                                                 fontSize: 16,
                                                 color: Colors.white,
                                               )),
